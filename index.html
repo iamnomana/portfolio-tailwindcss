@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- Add your tailwind cdn here -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-violet-950">
+    <!-- NAVBAR -->
+    <nav class="md:flex md:container md:mx-auto md:pt-3">
+      <h1 class="text-white">My Portfolio</h1>
+
+      <ol class="md:flex md:mx-auto gap-x-5 text-gray-300">
+        <li><a href="">Home</a></li>
+        <li><a href="">About Me</a></li>
+        <li><a href="">Contact Me</a></li>
+      </ol>
+    </nav>
+
+    <!-- Header -->
+    <header class="md:h-screen md:mt-5 md:content-center grid mx-auto container">
+      <div class="text-white text-4xl">My name is</div>
+      <div class="text-white text-5xl font-bold mb-11">Divine Azianka</div>
+
+      <p class="text-gray-400">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio molestiae, eveniet voluptatem
+        eos quam libero assumenda rem dignissimos voluptas, odit natus distinctio asperiores ea,
+        consectetur consequuntur nam? Maiores, inventore dolores.
+      </p>
+    </header>
+
+    <!-- About  Me -->
+    <section
+      class="text-white h-screen md:flex md:flex-col md:content-center md:justify-center md:px-24 md:text-center bg-blue-800"
+    >
+      <div class="text-4xl mb-8 font-bold uppercase">About Me</div>
+
+      <div class="text-gray-400 text-lg">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde iste tempora et ipsum,
+        aspernatur ex in labore facilis repudiandae, suscipit cum necessitatibus nobis ullam
+        perspiciatis fuga asperiores quae quam at. Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Unde iste tempora et ipsum, aspernatur ex in labore facilis repudiandae,
+        suscipit cum necessitatibus nobis ullam perspiciatis fuga asperiores quae quam at. Lorem
+        ipsum dolor sit amet consectetur, adipisicing elit. Unde iste tempora et ipsum, aspernatur
+        ex in labore facilis repudiandae, suscipit cum necessitatibus nobis ullam perspiciatis fuga
+        asperiores quae quam at.
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section
+      class="text-white h-screen md:flex md:flex-col md:content-center md:justify-center md:px-24 bg-indigo-800"
+    >
+      <div class="text-4xl mb-8 font-bold uppercase md:text-center">Contact Me</div>
+
+      <form class="gap-y-5 grid">
+        <div class="flex flex-col">
+          <label for="name">Name</label>
+          <input type="text" id="name" class="bg-inherit border-gray-200 border border-dotted" />
+        </div>
+
+        <div class="flex flex-col">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" class="bg-inherit border-gray-200 border border-dotted" />
+        </div>
+        <div class="flex flex-col">
+          <label for="name">Name</label>
+          <input type="text" id="name" class="bg-inherit border-gray-200 border border-dotted" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
